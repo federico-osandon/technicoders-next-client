@@ -1,0 +1,52 @@
+.slide {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    /* width: 100%; */
+    /* padding-top: 20px; */
+    padding-left: 7px;
+  
+    
+    text-align: center;
+    font-weight: bolder;
+    /* -webkit-text-stroke: 2px #333;
+    color: transparent; */
+    
+  
+    animation: carousel-animation 8s linear infinite;
+}
+
+@keyframes carousel-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+  
+
+.typingText {
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    /* border-right: .15em solid orange;  */
+    /* width: 0; */
+    /* visibility: hidden; */
+    display: block;
+    white-space: nowrap;
+    width: 126ch;
+    animation: escribir 10s steps(126), blink 1s step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes escribir {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+  

@@ -13,7 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
         <html lang="en">
-            <body className={`${inter.className} bg-gradient-to-br from-slate-900 to-slate-400 w-full min-h-screen`}>
+            
+            <body className={`${inter.className} bg-gradient-to-br from-cyan-400 to-green-400 w-full min-h-screen`}>
                 <NavBar />
                 {children}
             </body>

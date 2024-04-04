@@ -5,8 +5,11 @@ const getProjects = async () => {
     const url = process.env.NEXT_PUBLIC_API_URL
     const query = 'proyectos?populate=*'
     
-    const responseJson = await fetch(`${url}/${query}`)
+    const responseJson = await fetch(`${url}/${query}`, {
+        cache: 'no-cache',
+    })
     const response = await responseJson.json()
+    console.log(response.data)
     return response.data    
 }
 

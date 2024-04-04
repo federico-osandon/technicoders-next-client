@@ -1,7 +1,7 @@
 .logo {    
     stroke: white;
     fill-opacity: 0;
-    stroke-width: 3px;
+    stroke-width: 5px;
     stroke-dasharray: 500; /* Ajusta según tu necesidad */
     stroke-dashoffset: 500;
     animation: draw 6s ease forwards;
@@ -17,6 +17,7 @@
         stroke-dashoffset: 0;
         /* fill-opacity: 1; */
         /* stroke: transparent; */
-        stroke: white;
+        stroke: #333;
     }
 }
+

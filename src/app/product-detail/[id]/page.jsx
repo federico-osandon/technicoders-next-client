@@ -34,15 +34,15 @@ export default async function PoductDetailPage({params}) {
     const url_base = process.env.NEXT_PUBLIC_BASE_URL
     
     const project = await getPoject(id)
-    // console.log(`${url_base}${project.attributes.imagen_producto.data}`)
-    // console.log(`${project.attributes.imagen_producto.data[0].attributes.url}`)
-    // consoled.log(project)
-
+    
+    // console.log(`${project.attribute}`)
+    
+    
     return (
         <div className="relative flex pt-24 3xl:pt-48 w-full">
 
             <Image 
-                src={`${url_base}${project.attributes.imagen_producto.data[0].attributes.url}`} 
+                src={`${url_base}${project.attributes.imagen_producto.data.attributes.url}`} 
                 className="w-1/2"
                 alt="Project image" 
                 width={1920} 
