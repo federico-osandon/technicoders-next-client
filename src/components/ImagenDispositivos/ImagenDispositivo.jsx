@@ -1,0 +1,71 @@
+import styles from './Dispositivos.module.css'
+
+export default function ImagenDispositivo() {
+    return (
+        <svg className={`${styles.logo}`} version="1.1" viewBox="0 0 1250.8 885.83" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+            <linearGradient id="r" x1="580" x2="579.29" y1="223.79" y2="310.22" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#333" offset="0"/>
+            <stop stopColor="#333" stopOpacity="0" offset="1"/>
+            </linearGradient>
+            <linearGradient id="j" x1="564.43" x2="572.52" y1="186.53" y2="338.31" gradientTransform="matrix(1 0 0 .98523 -3.2365 3.9423)" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#999" offset="0"/>
+            <stop stopColor="#999" stopOpacity="0" offset="1"/>
+            </linearGradient>
+            <linearGradient id="k" x1="-160.71" x2="-160" y1="750.1" y2="729.86" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#666" offset="0"/>
+            <stop stopColor="#666" stopOpacity="0" offset="1"/>
+            </linearGradient>
+            <filter id="l" x="-.10958" y="-.12023" width="1.2192" height="1.2405" colorInterpolationFilters="sRGB">
+            <feGaussianBlur stdDeviation="3.9362014"/>
+            </filter>
+            <filter id="n" x="-.27427" y="-.23509" width="1.5485" height="1.4702" colorInterpolationFilters="sRGB">
+            <feGaussianBlur stdDeviation="0.97952534"/>
+            </filter>
+            <filter id="m" x="-.10958" y="-.12023" width="1.2192" height="1.2405" colorInterpolationFilters="sRGB">
+            <feGaussianBlur stdDeviation="3.9362014"/>
+            </filter>
+            <filter id="o" x="-.27427" y="-.23509" width="1.5485" height="1.4702" colorInterpolationFilters="sRGB">
+            <feGaussianBlur stdDeviation="0.97952534"/>
+            </filter>
+            <filter id="p" x="-.032528" y="-.19249" width="1.0651" height="1.385" colorInterpolationFilters="sRGB">
+            <feGaussianBlur stdDeviation="0.52720638"/>
+            </filter>
+            <filter id="q" x="-.029608" y="-.13705" width="1.0592" height="1.2741" colorInterpolationFilters="sRGB">
+            <feGaussianBlur stdDeviation="0.54841294"/>
+            </filter>
+            </defs>
+            <g transform="translate(0 -166.54)">
+            <rect x="625.35" y="836.64" width="102.86" height="115.71" ry="4.8019" stroke="#fdfdfd" strokeWidth=".4"/>
+            <g transform="translate(488.2 235.7)">
+            <path d="m-190.63 67.726c-11.136 0-20.094 8.9582-20.094 20.094v497.66c0 11.136 8.9582 20.094 20.094 20.094h762.66c11.136 0 20.125-8.9582 20.125-20.094v-497.66c0-11.136-8.9894-20.094-20.125-20.094zm3.4732 29.982 753.58 2.1429 1.4286 474.29-755.01 2.8572z"/>
+            <path d="m346.79 67.362 229.29 0.71428c16.231 0.05056 17.5 23.731 17.5 23.929-5e-3 81.991-1.497 141.84-1.5395 223.83l-24.889-1.3297-1.4286-215s-204.92-1.6029-205-1.0714c-4.6997-11.094-8.117-20.741-13.929-31.071z" fill="url(#r)"/>
+            </g>
+            <g transform="matrix(.44139 0 0 .96948 171.92 307.23)">
+            <path d="m-190.63 67.726c-11.136 0-20.094 8.9582-20.094 20.094v497.66c0 11.136 8.9582 20.094 20.094 20.094h762.66c11.136 0 20.125-8.9582 20.125-20.094v-497.66c0-11.136-8.9894-20.094-20.125-20.094zm24.511 51.349 719.6 0.66931 1.4286 435.24-721.03-0.0899z"/>
+            <path d="m134.79 70.309 438.04 0.70373c16.231 0.02608 17.5 23.38 17.5 23.575-5e-3 80.78-1.497 139.74-1.5395 220.52l-41.072 0.86761 6.6627-196.62s-381.31 1.3243-381.39 1.1112c0.15507-0.0415-32.391-39.979-38.202-50.157z" fill="url(#j)"/>
+            </g>
+            <path transform="matrix(.81863 0 0 .71357 352.42 434.56)" d="m-122.14-52.638a4.2857 5 0 1 1 -8.5714 0 4.2857 5 0 1 1 8.5714 0z" fill="#1a1a1a" filter="url(#n)"/>
+            <path transform="matrix(1 0 0 1.0435 409.63 100.79)" d="m-142.14 737.36a17.143 16.429 0 1 1 -34.286 0 17.143 16.429 0 1 1 34.286 0z" fill="url(#k)"/>
+            <rect transform="matrix(.14371 0 0 .16115 261.38 768.21)" x="-122.39" y="598.08" width="86.209" height="78.571" ry="11.71" fillOpacity="0" filter="url(#l)" stroke="#fdfdfd" strokeWidth="4.6732"/>
+            <rect x="96.86" y="422.44" width="319.83" height="421.26" ry="1.9804" fill="#fff" stroke="#fdfdfd" strokeWidth="1.2294"/>
+            <g transform="translate(418.2 -200.01)">
+            <g transform="matrix(.24388 0 0 .70002 618.49 681.38)">
+                <path d="m-190.63 67.726c-11.136 0-20.094 8.9582-20.094 20.094v497.66c0 11.136 8.9582 20.094 20.094 20.094h762.66c11.136 0 20.125-8.9582 20.125-20.094v-497.66c0-11.136-8.9894-20.094-20.125-20.094zm24.511 51.349 719.6 0.66931 3.5518 418.33-729.34-0.69566z"/>
+                <path d="m134.79 70.309 438.04 0.70373c16.231 0.02608 17.5 23.38 17.5 23.575-5e-3 80.78-1.497 139.74-1.5395 220.52l-41.072 0.86761 6.6627-196.62s-381.31 1.3243-381.39 1.1112c0.15507-0.0415-32.391-39.979-38.202-50.157z" fill="url(#j)"/>
+            </g>
+            <rect transform="matrix(.55252 0 0 .72206 489.77 317.05)" x="157.89" y="620.46" width="319.85" height="406.01" ry="1.9087" fill="#fff" stroke="#fdfdfd" strokeWidth="1.207"/>
+            <path transform="matrix(.59346 0 0 .53427 736.61 769.07)" d="m-122.14-52.638c0 2.7614-1.9188 5-4.2857 5s-4.2857-2.2386-4.2857-5 1.9188-5 4.2857-5 4.2857 2.2386 4.2857 5z" fill="#1a1a1a" filter="url(#o)"/>
+            <g transform="matrix(.72494 0 0 .74873 436.52 280.97)">
+                <path transform="matrix(1 0 0 1.0435 470.67 298.12)" d="m-142.14 737.36c0 9.0732-7.6751 16.429-17.143 16.429s-17.143-7.3553-17.143-16.429 7.6751-16.429 17.143-16.429 17.143 7.3553 17.143 16.429z" fill="url(#k)"/>
+                <rect transform="matrix(.14371 0 0 .16115 322.42 965.54)" x="-122.39" y="598.08" width="86.209" height="78.571" ry="11.71" fillOpacity="0" filter="url(#m)" stroke="#fdfdfd" strokeWidth="4.6732"/>
+            </g>
+            <rect transform="matrix(.72494 0 0 .74873 258.81 228.86)" x="534.11" y="693" width="44.454" height="9.6038" ry="4.8019" filter="url(#q)" stroke="#fdfdfd" strokeWidth=".4"/>
+            <rect transform="matrix(.79123 0 0 .87335 222.62 141.12)" x="536.13" y="696.28" width="38.898" height="6.5733" ry="3.2867" fill="#4d4d4d" filter="url(#p)"/>
+            </g>
+            <rect x="482.46" y="908.03" width="385.78" height="48.636" ry="14.29" stroke="#fdfdfd" strokeWidth=".3357"/>
+            </g>
+        </svg>
+
+    )
+}
