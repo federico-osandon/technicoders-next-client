@@ -8,7 +8,7 @@ export default function HeroSection() {
             <div className="flex flex-col w-full h-full items-center justify-start text-purple-900">
                 {/* <h1 className="text-4xl md:text-5xl 2xl:text-8xl font-bold text-center">TECHNICODERS</h1>
                 <h2 className="text-xl md:text-3xl 2xl:text-5xl mt-3 text-center">Agencia de Diseño y Marketing</h2> */}
-                <div className="flex w-[60%] justify-start items-center">
+                <div className="flex w-[50%] 2xl:w-[60%] justify-start items-center">
                     <ImagenDispositivo />
                 </div>
             </div>
