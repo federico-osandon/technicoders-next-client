@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function NavBar() {
     return (
-        <header className="absolute flex flex-col w-full md:flex-row justify-between items-center p-4 text-white uppercase z-10">
+        <header className="absolute flex flex-col w-full md:flex-row justify-between items-center p-4 text-purple-700 uppercase z-10">
             <Link href="/">
                 <Image src="/logo.png" alt="TECHNICODERS" width={80} height={80} priority />
             </Link>
