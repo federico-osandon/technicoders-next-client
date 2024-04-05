@@ -24,7 +24,7 @@ export default function DescriptionText() {
     },[] )
     // console.log(parrafoP.current)
     return (
-        <div className="absolute bottom-10 w-[60%] h-full overflow-hidden flex flex-col justify-end items-center text-center text-purple-900 font-bold z-50">
+        <div className="absolute bottom-10 w-[60%] h-full overflow-hidden flex flex-col justify-end items-center text-center text-orange-600 font-bold z-50">
             <div className="mt-[-10%] 2xl:mt-8">
                 <p 
                     className={`text-md md:text-2xl`} 
@@ -32,7 +32,7 @@ export default function DescriptionText() {
                 ></p>                            
             </div>
             <div className="w-full mt-10">
-                <button className="bg-purple-700 font-bold py-2 px-4 rounded-full text-white">Contactanos</button>
+                <button className="bg-orange-600 font-bold py-2 px-4 rounded-full text-white">Contactanos</button>
             </div>
         </div>
     )
